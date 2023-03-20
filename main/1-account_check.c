@@ -13,14 +13,14 @@
          char mobile[10];
            };
                        
-     // Structure to store the restaurants and their food details
-                      struct hotels {
-                           char hotel[100];
-                               char first_food[20];
-                                   char second_food[20];
-                                    char third_food[20];
-                                           char fourth_food[25];
-                                    int first, second, third, fourth;
+// Structure to store the restaurants and their food details
+      struct restaurants {
+      char restaurantl[100];
+      char first_food[20];
+      char second_food[20];
+      char third_food[20];
+     char fourth_food[25];
+     int first, second, third, fourth;
                                               };
                                                 
     // Initialize the hotels and details
