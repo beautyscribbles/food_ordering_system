@@ -28,10 +28,10 @@
         struct details s[100];
                                              
       // Function to get the input for a new account
-                         void signup();
+          void signup();
                                                   
 // Function to check whether account is already existed or not
-                           void account_check();
+          void account_check();
                                                    
 // Function to validate all input fields
                              int validate();
