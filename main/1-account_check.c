@@ -34,12 +34,12 @@
           void account_check();
                                                    
 // Function to validate all input fields
-                             int validate();
-                            void login();
-                           void cart();
-                           void search_by_restaurants();
-                              void search_by_food();
-                             void food_order(int food);
+          int validate();
+          void login();
+          void cart();
+          void search_by_restaurants();
+          void search_by_food();
+          void food_order(int food);
                                                     
 // Function to initialize the restaurants and food structure dynamically
                        void hotel_initialize();
