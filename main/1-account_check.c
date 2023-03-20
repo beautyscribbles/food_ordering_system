@@ -24,8 +24,8 @@
                                               };
                                                 
     // Initialize the hotels and details
-                       struct hotels m[5];
-                       struct details s[100];
+        struct restaurantss m[5];
+        struct details s[100];
                                              
       // Function to get the input for a new account
                          void signup();
