@@ -42,8 +42,8 @@
           void food_order(int food);
                                                     
 // Function to initialize the restaurants and food structure dynamically
-                       void hotel_initialize();
-                       void hotels(int hotel_choice);
+                       void restaurant_initialize();
+                       void restaurants(int restaurant_choice);
                                  
           int flag = 1, i, j = 0, count = 0, caps = 0;
            int small = 0, special = 0, numbers = 0;
