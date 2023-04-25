@@ -46,8 +46,8 @@
                        void restaurants(int restaurant_choice);
                                  
 int flag = 1, i, j = 0, count = 0, caps = 0;
-           int small = 0, special = 0, numbers = 0;
-                       int success = 0, x, choice;
+int small = 0, special = 0, numbers = 0;
+int success = 0, x, choice;
                   char temp_name[100], temp_password1[100];
                    char temp_password2[100], temp_email[100];
                         char temp_mobile[100];
