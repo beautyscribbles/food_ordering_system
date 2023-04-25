@@ -45,7 +45,7 @@
                        void restaurant_initialize();
                        void restaurants(int restaurant_choice);
                                  
-          int flag = 1, i, j = 0, count = 0, caps = 0;
+int flag = 1, i, j = 0, count = 0, caps = 0;
            int small = 0, special = 0, numbers = 0;
                        int success = 0, x, choice;
                   char temp_name[100], temp_password1[100];
