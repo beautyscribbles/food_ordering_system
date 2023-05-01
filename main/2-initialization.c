@@ -15,18 +15,18 @@ char mobile[10];
                   
 // Structure to store the hotels
 // and their food details
-                       struct hotels {
-                           char hotel[100];
-                               char first_food[20];
-                                   char second_food[20];
-                                       char third_food[20];
-                                           char fourth_food[25];
-                                     int first, second, third, fourth;
-                                               };
+struct hotels {
+char hotel[100];
+char first_food[20];
+char second_food[20];
+char third_food[20];
+char fourth_food[25];
+int first, second, third, fourth;
+};
                                                 
-                              // Initialize the hotels and details
-                                                struct hotels m[5];
-                                              struct details s[100];
+// Initialize the hotels and details
+struct hotels m[5];
+struct details s[100];
                                                  
                                      // Function to get the input for
                                                 // a new account
