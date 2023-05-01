@@ -21,10 +21,10 @@ break;
 	}                                                                                                                           
                                                                      // For Login Function
 case 2: {
-                                                                                                                                               login();
-//                                                                                                                                                                        break;
-//                                                                                                                                                                                }
-//                                                                                                                                                                                        case 3: {
+login();
+break;
+}
+                                                                                                                                          case 3: {
 //                                                                                                                                                                                                    exit(1);
 //                                                                                                                                                                                                            }
 //                                                                                                                                                                                                                    default: {
