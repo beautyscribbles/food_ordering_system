@@ -1,23 +1,24 @@
 // Function to Login the users
 // void login()
-// {
-//     printf("\n\nLOGIN\n\n");
-//         printf("\nEnter Your Email\t");
-//             scanf("%s", temp_email);
-//              
-//                  printf("Enter Your Password\t");
-//                      scanf("%s", temp_password1);
-//                       
-//                           for (i = 0; i < 100; i++) {
-//                                   // Check whether the input email
-//                                           // is already existed or not
-//                                                   if (!strcmp(s[i].email, temp_email)) {
-//                                                               // Check whether the password
-//                                                                           // is matched with email or not
-//                                                                                       if (!strcmp(s[i].password, temp_password1)) {
-//                                                                                                       printf("\n\nWelcome %s, ");
-//                                                                                                                       printf("Your are successfully ");
-//                                                                                                                                       printf("logged in\n\nWe Provide ");
+{
+printf("\n\nLOGIN\n\n");
+printf("\nEnter Your Email\t");
+scanf("%s", temp_email);
+          
+printf("Enter Your Password\t");
+scanf("%s", temp_password1);
+                      
+for (i = 0; i < 100; i++) {
+// Check whether the input email
+// is already existed or not
+if (!strcmp(s[i].email, temp_email)) {
+
+// Check whether the password
+// is matched with email or not
+                                                                                     if (!strcmp(s[i].password, temp_password1)) {
+printf("\n\nWelcome %s, ");
+printf("Your are successfully ");
+                                                                     printf("logged in\n\nWe Provide ");
 //                                                                                                                                                       printf("two ways of search\n1) ");
 //                                                                                                                                                                       printf("Search By Hotels\n2) ");
 //                                                                                                                                                                                       printf("Search by Food\n3) ");
@@ -62,6 +63,6 @@
 //                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    printf("exist, Please signup!!\n\n");
 //                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                main();
 //                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            break;
-//                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    }
+//                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              }
 //                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
 //                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
