@@ -30,7 +30,7 @@ exit(1);
 //                                                                                                                                                                                                                                    printf("\nPlease Enter the "
 //                                                                                                                                                                                                                                                    printf("valid choice\n");
                                                                                                                                                                                                                                                              break;
-                                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                                                                  }
-                                                                                                                        }
+}
+}
+}
 }
