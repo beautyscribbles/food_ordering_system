@@ -24,14 +24,13 @@ case 2: {
 login();
 break;
 }
-                                                                                                                                          case 3: {
-//                                                                                                                                                                                                    exit(1);
-//                                                                                                                                                                                                            }
-//                                                                                                                                                                                                                    default: {
+                                                                     case 3: {
+exit(1);
+}                                                                                                                                                                                  default: {
 //                                                                                                                                                                                                                                    printf("\nPlease Enter the "
 //                                                                                                                                                                                                                                                    printf("valid choice\n");
-//                                                                                                                                                                                                                                                                    break;
-//                                                                                                                                                                                                                                                           }
-//                                                                                                                                                                                                                                                                                    }
-//                                                                                                                                                                                                                                                                                        }
-//                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                             break;
+                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                       }
