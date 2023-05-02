@@ -9,14 +9,14 @@ m[1].hotel,
 m[2].hotel, m[3].hotel);
 printf("\n4) Exit\n\nPlease ");
 printf("select the hotel\t");
-//                                            
-//                                                scanf("%d", &hotel_choice);
-//                                                 
-//                                                     if (hotel_choice > 4) {
-//                                                             printf("Please Enter the");
-//                                                                     printf("valid choice\n\n");
-//                                                                             search_by_hotels();
-//                                                                                 }
+                                        
+scanf("%d", &hotel_choice);
+                                             
+if (hotel_choice > 4) {
+printf("Please Enter the");
+printf("valid choice\n\n");
+                                                                     search_by_hotels();
+}
 //                                                                                     else if (hotel_choice == 4)
 //                                                                                             exit(1);
 //                                                                                                 else
