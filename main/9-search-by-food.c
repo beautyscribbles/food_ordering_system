@@ -1,14 +1,14 @@
 // Function to implement the
 // // search by food
-// void search_by_food()
-// {
-//     total = 0;
-//      
-//          // Initialize all the hotels
-//              // and their foods
-//                  hotel_initialize();
-//                      while (1) {
-//                              printf("\n\nPlease choose the ");
+void search_by_food()
+{
+total = 0;
+  
+// Initialize all the hotels
+// and their foods
+hotel_initialize();
+while (1) {
+printf("\n\nPlease choose the ");
 //                                      printf("food\n\n1) %s\t%d\n2) %s\t%d",
 //                                                     m[1].first_food, m[1].first,
 //                                                                    m[1].second_food, m[1].second);
