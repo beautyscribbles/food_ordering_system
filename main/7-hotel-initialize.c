@@ -26,13 +26,12 @@
 //                                                                                   
 //                                                                                       // Initialize the structure with
 //                                                                                           // SR_Bhavan hotel and some foods
-//                                                                                               // name and their respective costs
-//                                                                                                   strcpy(m[3].hotel, "SR_Bhavan");
-//                                                                                                       strcpy(m[3].first_food, "Chicken_Biriyani");
-//                                                                                                           strcpy(m[3].second_food, "Prawn");
-//                                                                                                               strcpy(m[3].third_food, "Faloda");
-//                                                                                                                   m[3].first = 90;
-//                                                                                                                       m[3].second = 120;
-//                                                                                                                           m[3].third = 35;
-//                                                                                                                           }
-//
+// name and their respective costs
+strcpy(m[3].hotel, "SR_Bhavan");
+strcpy(m[3].first_food, "Chicken_Biriyani");
+strcpy(m[3].second_food, "Prawn");
+strcpy(m[3].third_food, "Faloda");
+m[3].first = 90;
+m[3].second = 120;
+m[3].third = 35;
+}
