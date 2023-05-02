@@ -44,13 +44,13 @@ m[hotel_choice].second,
 printf("Cart\n5) Exit\n\nPlease Enter");
 printf("Your Choice\t");
 scanf("%d", &food_choice);
-//                                                                                                                                                                                                                                                                                              
-//                                                                                                                                                                                                                                                                                                      // Get the input for no. of foods
-//                                                                                                                                                                                                                                                                                                              // to calculate the total amount
-//                                                                                                                                                                                                                                                                                                                      if (food_choice == 1) {
-//                                                                                                                                                                                                                                                                                                                                  printf("Please Enter the ");
-//                                                                                                                                                                                                                                                                                                                                              printf("Count of %s\t",
-//                                                                                                                                                                                                                                                                                                                                                                 m[hotel_choice].first_food);
+                                                                                                                                                                                                                                                                    
+// Get the input for no. of foods
+// to calculate the total amount
+if (food_choice == 1) {
+printf("Please Enter the ");
+printf("Count of %s\t",
+m[hotel_choice].first_food);
 //                                                                                                                                                                                                                                                                                                                                                                             scanf("%d", &n);
 //                                                                                                                                                                                                                                                                                                                                                                              
 //                                                                                                                                                                                                                                                                                                                                                                                          total = total
