@@ -12,10 +12,10 @@
 //                                 m[1].first = 70;
 //                                     m[1].second = 100;
 //                                         m[1].third = 95;
-//                                          
-//                                              // Initialize the structure with
-//                                                  // Banu_Hotel and some foods name
-//                                                      // and their respective costs
+                                 
+       // Initialize the structure with
+   // Banu_Hotel and some foods name
+// and their respective costs
 strcpy(m[2].hotel, "Banu_Hotel");
 strcpy(m[2].first_food, "Parotta");
 strcpy(m[2].second_food, "Noodles");
