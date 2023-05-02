@@ -40,10 +40,10 @@ m[hotel_choice].second_food,
 m[hotel_choice].second,
                                                                                                                                                                                                                             m[hotel_choice].third_food,
                                                                                                                                                                                                                                                      m[hotel_choice].third);
-                                                                                                                                                                                                                                                                  
-                                                                                                                                                                                                                   printf("Cart\n5) Exit\n\nPlease Enter");
+                                                                                                                                                                                                                                     
+printf("Cart\n5) Exit\n\nPlease Enter");
 printf("Your Choice\t");
-                                                                                                                                                                                                                                                                                           scanf("%d", &food_choice);
+scanf("%d", &food_choice);
 //                                                                                                                                                                                                                                                                                              
 //                                                                                                                                                                                                                                                                                                      // Get the input for no. of foods
 //                                                                                                                                                                                                                                                                                                              // to calculate the total amount
