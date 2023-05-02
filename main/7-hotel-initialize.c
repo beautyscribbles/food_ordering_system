@@ -1,20 +1,20 @@
 // Function that initializes the
-// // Hotels
-// void hotel_initialize()
-// {
-//     // Initialize the structure with
-//         // Aarya_bhavan hotel and some
-//             // foods name with their cost
-//                 strcpy(m[1].hotel, "Aarya_Bhavan");
-//                     strcpy(m[1].first_food, "Sandwich");
-//                         strcpy(m[1].second_food, "Pizza");
-//                             strcpy(m[1].third_food, "Fried_Rice");
-//                                 m[1].first = 70;
-//                                     m[1].second = 100;
-//                                         m[1].third = 95;
+// Hotels
+void hotel_initialize()
+{
+// Initialize the structure with
+// Aarya_bhavan hotel and some
+// foods name with their cost
+strcpy(m[1].hotel, "Aarya_Bhavan");
+strcpy(m[1].first_food, "Sandwich");
+strcpy(m[1].second_food, "Pizza");
+strcpy(m[1].third_food, "Fried_Rice");
+m[1].first = 70;
+m[1].second = 100;
+m[1].third = 95;
                                  
-       // Initialize the structure with
-   // Banu_Hotel and some foods name
+// Initialize the structure with
+// Banu_Hotel and some foods name
 // and their respective costs
 strcpy(m[2].hotel, "Banu_Hotel");
 strcpy(m[2].first_food, "Parotta");
