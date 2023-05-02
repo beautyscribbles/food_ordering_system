@@ -16,7 +16,7 @@
 //                                              // Initialize the structure with
 //                                                  // Banu_Hotel and some foods name
 //                                                      // and their respective costs
-//                                                          strcpy(m[2].hotel, "Banu_Hotel");
+strcpy(m[2].hotel, "Banu_Hotel");
 strcpy(m[2].first_food, "Parotta");
 strcpy(m[2].second_food, "Noodles");
 strcpy(m[2].third_food, "Chicken_Rice");
