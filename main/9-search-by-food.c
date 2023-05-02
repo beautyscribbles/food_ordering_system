@@ -9,16 +9,17 @@ total = 0;
 hotel_initialize();
 while (1) {
 printf("\n\nPlease choose the ");
-//                                      printf("food\n\n1) %s\t%d\n2) %s\t%d",
-//                                                     m[1].first_food, m[1].first,
-//                                                                    m[1].second_food, m[1].second);
-//                                                                     
-//                                                                             printf("\n3) %s\t%d\n4) %s\t%d\n",
-//                                                                                            m[1].third_food, m[1].third,
-//                                                                                                           m[2].first_food, m[2].first);
-//                                                                                                            
-//                                                                                                                    printf("5) %s\t%d\n6) %s\t%d\n",
-//                                                                                                                                   m[2].second_food, m[2].second,
+
+printf("food\n\n1) %s\t%d\n2) %s\t%d",
+m[1].first_food, m[1].first,
+m[1].second_food, m[1].second);
+                                                              
+printf("\n3) %s\t%d\n4) %s\t%d\n",
+m[1].third_food, m[1].third,
+m[2].first_food, m[2].first);
+                                                                                                  
+printf("5) %s\t%d\n6) %s\t%d\n",
+                                                                     m[2].second_food, m[2].second,
 //                                                                                                                                                  m[2].third_food, m[2].third);
 //                                                                                                                                                          printf("7) %s\t%d\n8) %s\t%d\n",
 //                                                                                                                                                                         m[3].first_food, m[3].first,
