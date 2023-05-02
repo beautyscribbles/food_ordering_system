@@ -1,8 +1,8 @@
 // Function that implements the
 // // functionality search by hotels
-// void search_by_hotels()
-// {
-//     hotel_initialize();
+void search_by_hotels()
+{
+hotel_initialize();
 //         printf("\n\nPlease Choose the");
 //             printf("hotels\n\n1) %s\n2) %s\n3) %s",
 //                        m[1].hotel,
