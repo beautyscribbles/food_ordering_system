@@ -16,13 +16,13 @@ m[1].third = 95;
 // Initialize the structure with
 // Banu_Hotel and some foods name
 // and their respective costs
-strcpy(m[2].hotel, "Banu_Hotel");
-strcpy(m[2].first_food, "Parotta");
-strcpy(m[2].second_food, "Noodles");
-strcpy(m[2].third_food, "Chicken_Rice");
-m[2].first = 15;
-m[2].second = 75;
-m[2].third = 80;
+  strcpy(m[2].hotel, "Banu_Hotel");
+  strcpy(m[2].first_food, "Parotta");
+  strcpy(m[2].second_food, "Noodles");
+  strcpy(m[2].third_food, "Chicken_Rice");
+  m[2].first = 15;
+  m[2].second = 75;
+  m[2].third = 80;
                                                                                  
 // Initialize the structure with
 // SR_Bhavan hotel and some foods
