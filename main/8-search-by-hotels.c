@@ -32,18 +32,18 @@ while (1) {
 printf("\n\nList of foods available");
 printf("in %s\n\n1) %s\tRs: %d\n2)",
                                                                                                                                      m[hotel_choice].hotel,
-//                                                                                                                                                                                m[hotel_choice].first_food,
-//                                                                                                                                                                                               m[hotel_choice].first);
-//                                                                                                                                                                                                
-//                                                                                                                                                                                                        printf("%s\tRs: %d\n3) %s\tRs: %d\n4)",
-//                                                                                                                                                                                                                       m[hotel_choice].second_food,
-//                                                                                                                                                                                                                                      m[hotel_choice].second,
-//                                                                                                                                                                                                                                                     m[hotel_choice].third_food,
-//                                                                                                                                                                                                                                                                    m[hotel_choice].third);
-//                                                                                                                                                                                                                                                                     
-//                                                                                                                                                                                                                                                                             printf("Cart\n5) Exit\n\nPlease Enter");
-//                                                                                                                                                                                                                                                                                     printf("Your Choice\t");
-//                                                                                                                                                                                                                                                                                             scanf("%d", &food_choice);
+m[hotel_choice].first_food,
+m[hotel_choice].first);
+                                                                                                                                                                                         
+printf("%s\tRs: %d\n3) %s\tRs: %d\n4)",
+m[hotel_choice].second_food,
+m[hotel_choice].second,
+                                                                                                                                                                                                                            m[hotel_choice].third_food,
+                                                                                                                                                                                                                                                     m[hotel_choice].third);
+                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                   printf("Cart\n5) Exit\n\nPlease Enter");
+printf("Your Choice\t");
+                                                                                                                                                                                                                                                                                           scanf("%d", &food_choice);
 //                                                                                                                                                                                                                                                                                              
 //                                                                                                                                                                                                                                                                                                      // Get the input for no. of foods
 //                                                                                                                                                                                                                                                                                                              // to calculate the total amount
