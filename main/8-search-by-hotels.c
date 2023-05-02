@@ -3,12 +3,12 @@
 void search_by_hotels()
 {
 hotel_initialize();
-//         printf("\n\nPlease Choose the");
-//             printf("hotels\n\n1) %s\n2) %s\n3) %s",
-//                        m[1].hotel,
-//                                   m[2].hotel, m[3].hotel);
-//                                       printf("\n4) Exit\n\nPlease ");
-//                                           printf("select the hotel\t");
+printf("\n\nPlease Choose the");
+printf("hotels\n\n1) %s\n2) %s\n3) %s",
+m[1].hotel,
+m[2].hotel, m[3].hotel);
+printf("\n4) Exit\n\nPlease ");
+printf("select the hotel\t");
 //                                            
 //                                                scanf("%d", &hotel_choice);
 //                                                 
