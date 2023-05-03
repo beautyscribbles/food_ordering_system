@@ -15,7 +15,7 @@ scanf("%d", &hotel_choice);
 if (hotel_choice > 4) {
 printf("Please Enter the");
 printf("valid choice\n\n");
-                                                                     search_by_hotels();
+search_by_hotels();
 }
 else if (hotel_choice == 4)
 exit(1);
@@ -27,20 +27,20 @@ void hotels(int hotel_choice)
 {
 total = 0;
 while (1) {
+
 // Displays the list of foods
 // available in selected hotel
 printf("\n\nList of foods available");
 printf("in %s\n\n1) %s\tRs: %d\n2)",
-                                                                                                                                     m[hotel_choice].hotel,
+m[hotel_choice].hotel,
 m[hotel_choice].first_food,
 m[hotel_choice].first);
                                                                                                                                                                                          
 printf("%s\tRs: %d\n3) %s\tRs: %d\n4)",
 m[hotel_choice].second_food,
 m[hotel_choice].second,
-                                                                                                                                                                                                                            m[hotel_choice].third_food,
-                                                                                                                                                                                                                                                     m[hotel_choice].third);
-                                                                                                                                                                                                                                     
+m[hotel_choice].third_food,
+m[hotel_choice].third);
 printf("Cart\n5) Exit\n\nPlease Enter");
 printf("Your Choice\t");
 scanf("%d", &food_choice);
